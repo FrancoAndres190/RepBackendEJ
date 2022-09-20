@@ -1,6 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+        // ramaInt2 - Problema solucionado con merge-git
+        //[HttpGet]
+        //[Route("GetInfo")]
+        //public ActionResult GetInfo()
+        //{
+            //return Ok("Prueba GetInfo ok");
+
 namespace EjercicioGITBackend.Controllers
 {
     [Route("api/[controller]")]
@@ -9,9 +16,11 @@ namespace EjercicioGITBackend.Controllers
     {
         [HttpGet]
         [Route("GetInfo")]
+
         public ActionResult GetInfo()
         {
-            return Ok("Prueba GetInfo ok");
+
+            return Ok("Prueba GetInfo Integrante 1 OK");
         }
     }
 }
